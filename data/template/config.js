@@ -27,6 +27,10 @@ module.exports = {
       href: '/stats/',
       title: '文档翻译',
     },
+    {
+      href: '/test/',
+      title: '测试 Bootstrap'
+    }
   ],
   redirectors: [
     {
