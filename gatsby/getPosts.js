@@ -2,7 +2,7 @@ const axios = require('axios');
 const getMockPosts = require('./getMockPosts');
 
 // 接口地址
-process.env.API_BASE_URL = '192.168.1.206';
+// process.env.API_BASE_URL = '192.168.1.206';
 
 
 require('dotenv').config({

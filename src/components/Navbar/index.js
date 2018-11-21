@@ -2,8 +2,12 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 
-import 'bootstrap/dist/css/bootstrap.min.css'
-import 'bootstrap/dist/js/bootstrap.min'
+// import 'bootstrap/dist/css/bootstrap.min.css'
+// import 'bootstrap/dist/js/bootstrap.min'
+// import 'react-bootstrap';
+//import 'jquery';
+// import 'popper.js';
+
 import NavItem from './NavItem/'
 import { gotoPage } from '../../api/url'
 import './index.scss'
