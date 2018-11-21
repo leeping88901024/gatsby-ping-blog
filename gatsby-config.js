@@ -19,14 +19,6 @@ module.exports = {
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     'gatsby-plugin-catch-links',
-    // 'gatsby-plugin-webpack-bundle-analyzer',
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `src`,
-        path: `${__dirname}/src/`,
-      },
-    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

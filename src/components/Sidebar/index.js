@@ -40,7 +40,7 @@ const Sidebar = ({ post, totalCount, posts }) => (
   >
     <div className="about-me">
       <Link to={about} href={about} className="name">
-        <img className="avatar" src={iconUrl} alt="Calpa" />
+        <img className="avatar" src={iconUrl} alt="Ping" />
         <h4>Ping</h4>
       </Link>
       <p className="mb-1">{wordings[0]}</p>

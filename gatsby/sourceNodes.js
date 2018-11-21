@@ -34,6 +34,7 @@ const makeNode = async ({ contentType, createNode }) => {
 
 const createHeader = async (createNode) => {
   const { data } = await getPosts('headers');
+  // console.log(`the response data is ${JSON.stringify(data)}`);
   data.items.forEach((datum) => {
     const node = {
       id: datum.sys.id,
