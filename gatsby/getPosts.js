@@ -26,6 +26,9 @@ const getPosts = async (contentType) => {
       console.log(err);
     });
   console.log('#############################################################')
+  // 数据不匹配
+  console.log(res);
+  console.log('#############################################################')
   return res;
 };
 

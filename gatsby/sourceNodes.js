@@ -17,7 +17,7 @@ const processDatum = (datum, html = '', toc = []) => ({
 });
 
 const makeNode = async ({ contentType, createNode }) => {
-  const { data } = await getPosts(contentType);
+  var { data } = await getPosts(contentType);
   // Process data into nodes.
   // Async forEach function is used in here,
   // please refer to the blog
@@ -33,7 +33,7 @@ const makeNode = async ({ contentType, createNode }) => {
 };
 
 const createHeader = async (createNode) => {
-  const { data } = await getPosts('headers');
+  var { data } = await getPosts('headers');
   // console.log(`the response data is ${JSON.stringify(data)}`);
   data.items.forEach((datum) => {
     const node = {
