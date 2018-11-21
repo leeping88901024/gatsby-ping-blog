@@ -30,6 +30,10 @@ module.exports = {
     {
       href: '/test/',
       title: '测试 Bootstrap'
+    },
+    {
+      href: '/second/',
+      title: '第二次更改'
     }
   ],
   redirectors: [
