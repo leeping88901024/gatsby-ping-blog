@@ -9,7 +9,8 @@ require('dotenv').config({
   path: `.env.${process.env.NODE_ENV}`,
 });
 
-process.env.API_BASE_URL = 'http://www.macdull.top';
+// process.env.API_BASE_URL = 'http://www.macdull.top';
+process.env.API_BASE_URL = 'http://120.79.49.128';  // netlify: Error: getaddrinfo ENOTFOUND
 process.env.API_SPACE_ID = 'headers';
 const { API_BASE_URL, API_SPACE_ID, API_TOKEN } = process.env;
 // console.log(`the API_BASE_URL is ${API_BASE_URL}, the API_SPACE_ID is ${API_SPACE_ID}, and the API_TOKEN is ${API_TOKEN}.`)
