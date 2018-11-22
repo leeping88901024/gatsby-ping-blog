@@ -29,7 +29,7 @@ const getPosts = async (contentType) => {
   // 数据不匹配
   console.log(res);
   console.log('#############################################################')
-  return res;
+  return res.data;
 };
 
 if (API_SPACE_ID) {
